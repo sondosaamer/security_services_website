@@ -1,0 +1,75 @@
+[
+    {
+      "title": "Home Security Monitoring",
+      "img": "pic15.jpeg",
+      "price": 50,
+      "description": "24/7 monitoring of your home for unauthorized access or emergencies."
+    },
+    {
+      "title": "CCTV Installation",
+      "img": "pic16.jpeg",
+      "price": 300,
+      "description": "Professional installation of high-definition CCTV cameras."
+    },
+    {
+      "title": "Alarm System Setup",
+      "img": "pic17.jpeg",
+      "price": 200,
+      "description": "Secure your property with advanced alarm systems."
+    },
+    {
+      "title": "Access Control Systems",
+      "img": "pic18.jpeg",
+      "price": 150,
+      "description": "Manage and restrict access to your premises effectively."
+    },
+    {
+      "title": "Cybersecurity Services",
+      "img": "pic19.jpeg",
+      "price": 500,
+      "description": "Protect your digital assets with our cybersecurity solutions."
+    },
+    {
+      "title": "Mobile Patrol Services",
+      "img": "pic20.jpeg",
+      "price": 75,
+      "description": "Frequent patrolling to ensure the safety of your property."
+    },
+    {
+      "title": "Security Guards",
+      "img": "pic21.jpeg",
+      "price": 100,
+      "description": "Trained security personnel to safeguard your premises."
+    },
+    {
+      "title": "Fire Alarm Installation",
+      "img": "pic22.jpeg",
+      "price": 250,
+      "description": "Install reliable fire alarm systems to detect fires early."
+    },
+    {
+      "title": "Emergency Response",
+      "img": "pic23.jpeg",
+      "price": 100,
+      "description": "Immediate response services in case of emergencies."
+    },
+    {
+      "title": "Perimeter Security",
+      "img": "pic24.jpeg",
+      "price": 400,
+      "description": "Secure your property with advanced perimeter security solutions."
+    },
+    {
+      "title": "Key Duplication Services",
+      "img": "pic25.jpeg",
+      "price": 20,
+      "description": "Quick and accurate key duplication for all lock types."
+    },
+    {
+      "title": "Surveillance Drone Monitoring",
+      "img": "pic26.jpeg",
+      "price": 800,
+      "description": "High-tech drone surveillance for large areas."
+    }
+  ]
+  
