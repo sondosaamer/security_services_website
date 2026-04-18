@@ -5,7 +5,6 @@ import Contact from './components/Contact';
 import Nav from './components/Nav';
 import Footer from './components/Footer';
 import Services from './components/Services';
-import NotFound from './components/NotFound';
 import Login from './components/Login';
 
 

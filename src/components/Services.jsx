@@ -1,11 +1,33 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import data from './data/sample.json';
+import pic1 from '../images/pic1.jpeg'
+import pic13 from '../images/pic13.jpeg'
+import pic14 from '../images/pic14.jpeg'
+import pic12 from '../images/pic12.jpeg'
+import pic15 from '../images/pic15.jpeg'
+import pic16 from '../images/pic16.jpeg'
+import pic17 from '../images/pic17.jpeg'
+import pic18 from '../images/pic18.jpeg'
+import pic19 from '../images/pic19.jpeg'
+import pic20 from '../images/pic20.jpeg'
+import pic21 from '../images/pic21.jpeg'
+import pic22 from '../images/pic22.jpeg'
+import pic23 from '../images/pic23.jpeg'
+import pic24 from '../images/pic24.jpeg'
+import pic25 from '../images/pic25.jpeg'
+import pic26 from '../images/pic26.jpeg'
+
+
+const imageMap = {
+  pic15, pic16, pic17, pic18, pic19, pic20,
+  pic21, pic22, pic23, pic24, pic25, pic26
+}
 
 function Services() {
     return (
         <>
-            <div style={{ backgroundImage: "url('pic12.jpeg')" }}>
+            <div style={{ backgroundImage: `url(${pic12})` }}>
                 <div class="container col-xxl-8 px-4 py-5 ">
                     <div class="row flex-lg-row align-items-center g-5 py-5">
                         <div class="col-lg-6 text-light">
@@ -26,13 +48,13 @@ function Services() {
                                 </div>
                                 <div class="carousel-inner">
                                     <div class="carousel-item active">
-                                        <img src="pic1.jpeg" class="d-block w-100" alt="..." />
+                                        <img src={pic1} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="pic13.jpeg" class="d-block w-100" alt="..." />
+                                        <img src={pic13} class="d-block w-100" alt="..." />
                                     </div>
                                     <div class="carousel-item">
-                                        <img src="pic14.jpeg" class="d-block w-100" alt="..." />
+                                        <img src={pic14} class="d-block w-100" alt="..." />
                                     </div>
                                 </div>
                             </div>
@@ -47,7 +69,7 @@ function Services() {
                     {
                         data.map((service) => (
                             <div class="card" style={{ width: "18rem" }}>
-                                <img src={service.img} class="card-img-top" alt={service.title} />
+                                <img src={imageMap[service.img]} class="card-img-top" alt={service.title} />
                                 <div class="card-body text-center d-flex align-content-center flex-column">
                                     <h5 class="card-title">{service.title}</h5>
                                     <ul class="list-group list-group-flush">
